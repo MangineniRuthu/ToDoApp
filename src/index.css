@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+}
+.heading {
+  box-shadow: 0px 0px 5px 2px grey;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading h1 {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  flex: 1;
+}
+.heading input {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  width: 20%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 35px;
+}
+.heading input::placeholder {
+  text-align: center;
+}
+.body-task {
+  margin-top: 50px;
+  text-align: center;
+}
+.body-task input {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 40%;
+  height: 30px;
+}
+.body-task input::placeholder {
+  text-align: center;
+  color: green;
+}
+.body-task button {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  height: 30px;
+  width: 70px;
+  border-radius: 2px;
+  background-color: brown;
+  color: white;
+}
+.task-container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top:50px;
+    box-shadow: 0px 0px 2px 0px white;
+    width:auto;
+    height:auto;
+    padding-top: 10px;
+  
+}
+
+.btns-container {
+  width: auto;
+  display:flex;
+  justify-content: center;
+}
+.btns-container button{
+    border: none;
+    outline:none;
+    border-radius: 3px;
+    margin-left:20px;
+    width:70px;
+    height:35px;
+    margin-top:10px;
+}
+.edit-container {
+  width: auto;
+  display:flex;
+  justify-content: center;
+}
+.edit-container button{
+     border: none;
+    outline:none;
+    border-radius: 3px;
+    margin-left:20px;
+    width:70px;
+    height:35px;
+    margin-top:10px;
+}
+.edit-container input{
+    border:none;
+    outline:none;
+}
+.edit-container input:hover::placeholder {
+    color: red;
+}
+ul {
+  list-style: none; 
+}
+li {
+  list-style-type: none;
+
+}
+input{
+  height:40px;
+  margin-top: 8px;
+}
