@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .heading {
   box-shadow: 0px 0px 5px 2px grey;
@@ -10,7 +11,6 @@ body {
 }
 .heading h1 {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
   flex: 1;
 }
@@ -109,4 +109,13 @@ li {
 input{
   height:40px;
   margin-top: 8px;
+}
+.NoTask{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color:white;
+  font-weight:100;
+  box-shadow: 0px 0px 2px 0px white;
 }

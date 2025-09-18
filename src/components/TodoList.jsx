@@ -18,7 +18,7 @@ export default function TodoList({ todos }) {
   };
 
   if (displayTodos.length === 0) {
-    return <p>No Tasks Added Here!!</p>;
+    return <h4 className="NoTask">Your task list is empty.</h4>;
   }
   return (
     <div className="task-container">
